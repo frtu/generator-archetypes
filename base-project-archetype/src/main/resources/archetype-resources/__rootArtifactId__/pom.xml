@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>${groupId}</groupId>
-        <artifactId>${artifactId}-pom</artifactId>
+        <artifactId>${artifactId}-master-pom</artifactId>
         <version>${version}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>${artifactId}</artifactId>
-    <name></name>
-    <description></description>
+    <name>${artifactId}</name>
+    <description>${artifactId}</description>
 
     <properties>
     </properties>
